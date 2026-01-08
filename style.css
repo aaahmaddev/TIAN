@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: url('../fonts/Anton-Regular.ttf');
+}
+
+.header-logo-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-a {
+    font-family: 'Gotham', sans-serif;
+    color: #292929;
+}
+
+.h-button {
+    width: 56px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: #051724;
+}
+
+.h-button-right {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.h-m-button {
+    width: 99px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #292929;
+    font-family: 'Gotham';
+    border: 0;
+}
+
+.hero-title {
+    font-size: 160px;
+    font-family: 'Anton';
+    font-weight: bold;
+    line-height: 90%;
+    letter-spacing: -3%;
+    color: #292929;
+}
+
+.hero-text {
+    font-family: 'Anton';
+    font-size: 90px;
+    line-height: 90%;
+    letter-spacing: -3%;
+    font-weight: 400;
+}
+
+.logo-box {
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    border: 1px solid #E6E6E6 !important;
+}
+
+.linkedin-box {
+    width: 38px;
+    height: 38px;
+    background-color: #292929;
+    border-radius: 10px;
+}
+
+.hero-btn {
+    /* width: 50px; */
+    height: 52px;
+    background-color: #292929;
+    color: #fff;
+    border: none;
+}
+.portal-icon{
+    width: 110px;
+    height: 110px;
+}
