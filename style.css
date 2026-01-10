@@ -4,6 +4,12 @@
 }
 
 @font-face {
+    font-family: 'Gotham Bold';
+    src: url('./fonts/Gotham Bold.ttf');
+}
+
+
+@font-face {
     font-family: 'Poppins';
     src: url('../fonts/Poppins-Bold.ttf') format('truetype');
 }
@@ -12,6 +18,8 @@
     font-family: 'Anton';
     src: url('../fonts/Anton-Regular.ttf');
 }
+
+
 
 .header-logo-text {
     font-family: 'Poppins', sans-serif;
@@ -60,6 +68,7 @@
     line-height: 90%;
     letter-spacing: -3%;
     font-weight: 400;
+    color: #FEE140;
 }
 
 .logo-box {
@@ -83,7 +92,109 @@
     color: #fff;
     border: none;
 }
-.portal-icon{
+
+.portal-icon {
     width: 110px;
     height: 110px;
+}
+
+.upwork-number {
+    font-size: 108px;
+    font-family: 'Anton';
+    color: #64C661;
+}
+
+.upwork-text {
+    color: #64C661;
+    font-family: 'Gotham Bold';
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -5%;
+}
+
+.first-sec-inner {
+    border: 1px solid #000;
+    background-color: #F6FFF6;
+    border-radius: 29px;
+    margin-top: 236px;
+    margin-bottom: 210px;
+}
+
+
+.c-s-title{
+    font-family: 'Anton';
+    font-size: 64px;
+}
+
+.c-s-card-box {
+    border: 1px solid #000000;
+    height: 419px;
+    width: 390px;
+    border-radius: 10px;
+}
+
+
+.c-s-card-title {
+    font-family: 'Gotham Bold';
+    font-weight: 700;
+}
+
+.c-s-card-a-box {
+    background-color: #E9DFFC;
+    width: 84px;
+    height: 24px;
+    border: 1px solid #BE9FF6;
+    border-radius: 12px;
+}
+
+.c-s-card-a {
+    font-family: 'Gotham';
+    color: #784DC7;
+    font-size: 14px;
+}
+
+.c-s-card-btn {
+    width: 290px;
+    height: 40px;
+    background-color: #292929;
+    color: #fff;
+    border: none;
+    font-family: 'Gotham';
+    font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+
+    .upwork-number {
+        font-size: 60px;
+    }
+
+    .upwork-text {
+        font-size: 15px;
+    }
+
+    .first-sec-inner {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero-title {
+        font-size: 130px;
+    }
+
+    .hero-text {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero-title {
+        font-size: 100px;
+    }
+
+    .hero-text {
+        font-size: 50px;
+    }
 }
